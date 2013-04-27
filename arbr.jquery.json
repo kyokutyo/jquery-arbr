@@ -1,13 +1,13 @@
 {
 	"name": "arbr",
-	"title": "jQuery.arbrjs",
+	"title": "jQuery.arbr.js",
 	"description": "A jQuery plugin provides '荒ぶる(araburu)' text.",
 	"version": "0.0.1",
 	"homepage": "http://kyokutyo.com/jquery-arbr/",
 	"author": {
 		"name": "kyokutyo",
 		"email": "kyokutyo@gmail.com",
-		"url": "http://kyokutyo.com"
+		"url": "http://kyokutyo.com/"
 	},
 	"repository": {
 		"type": "git",

@@ -1,7 +1,7 @@
 ;(function($, undefined) {
     $.fn.arbr = function(options) {
         var opts = $.extend({}, $.fn.arbr.defaults, options);
-        $('head').append('<style>.deg0 {-webkit-transform: rotate(6deg); -moz-transform: rotate(6deg);} .deg1 {-webkit-transform: rotate(-3deg); -moz-transform: rotate(-3deg);}</style>');
+        $('head').append('<style>.arbr-deg0 {-webkit-transform: rotate(6deg); -moz-transform: rotate(6deg);} .arbr-deg1 {-webkit-transform: rotate(-3deg); -moz-transform: rotate(-3deg);}</style>');
         return this.each(function() {
             var $that = $(this);
             var str = $that.text();
@@ -20,7 +20,7 @@
                         'top': y_pos,
                         'left': x_pos,
                     });
-                    $span.attr('class', 'deg' + angle)
+                    $span.attr('class', 'arbr-deg' + angle)
                 }, opts.interval);
             });
         });
