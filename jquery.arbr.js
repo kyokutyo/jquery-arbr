@@ -18,7 +18,7 @@
                     var y_pos = Math.floor(Math.random() * opts.move * 2) - opts.move;
                     $span.css({
                         'top': y_pos,
-                        'left': x_pos,
+                        'left': x_pos
                     });
                     $span.attr('class', 'arbr-deg' + angle)
                 }, opts.interval);
@@ -27,6 +27,6 @@
     };
     $.fn.arbr.defaults = {
         interval: 100,
-        move: 10,
+        move: 10
     };
 })(jQuery);
